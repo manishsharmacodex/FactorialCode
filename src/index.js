@@ -1,7 +1,7 @@
-const number = document.getElementById("number");
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click",()=>{
+    const number = document.getElementById("number");
     const newNumber = parseInt(number.value);
     const result = document.getElementById("results");
     let sum = 1;
