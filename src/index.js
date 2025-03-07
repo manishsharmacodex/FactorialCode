@@ -8,7 +8,9 @@ btn.addEventListener("click",()=>{
     for(let i = newNumber; i >= 1; i--){
         sum = sum * i;
     }
-    console.log(sum);
+    // console.log(sum);
 
-    result.innerHTML = `Factorial of ${newNumber} is ${sum}`;
+    setTimeout(()=>{
+        result.innerHTML = `Factorial of ${newNumber} is ${sum}`;
+    }, 2000);
 })
