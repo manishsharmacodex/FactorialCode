@@ -12,5 +12,5 @@ btn.addEventListener("click",()=>{
 
     setTimeout(()=>{
         result.innerHTML = `Factorial of ${newNumber} is ${sum}`;
-    }, 2000);
+    }, 1000);
 })
